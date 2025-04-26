@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "car-detector"
+version = "0.1.0"
+description = "Car plates detecting system"
+authors = ["Samat Davletov <samatdav02@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.11.0.86"
+pytesseract = "^0.3.13"
+matplotlib = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
